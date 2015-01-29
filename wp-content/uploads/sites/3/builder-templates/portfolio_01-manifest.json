@@ -1,0 +1,12 @@
+{
+	"id": "portfolio_01",
+	"name": "Portfolio 01",
+	"content-template": "portfolio_01.php",
+	"default-css": "portfolio_01.css",
+	"custom-fields": [],
+	"dependencies": [
+		{ "type": "script", "location": "local", "source": "jquery.mixitup.js" },
+		{ "type": "script", "location": "local", "source": "magnific-popup/jquery.magnific-popup.min.js" },
+		{ "type": "style", 	"location": "local", "source": "magnific-popup/magnific-popup.css" }
+	]
+}

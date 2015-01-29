@@ -1,0 +1,8 @@
+{
+	"id": "timeline_01",
+	"name": "Timeline 01",
+	"content-template": "timeline_01.php",
+	"default-css": "timeline_01.css",
+	"custom-fields": [],
+	"dependencies": []
+}

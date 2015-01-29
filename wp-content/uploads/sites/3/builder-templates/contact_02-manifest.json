@@ -1,0 +1,10 @@
+{
+	"id": "contact_02",
+	"name": "Contact 02",
+	"content-template": "contact_02.php",
+	"default-css": "contact_02.css",
+	"custom-fields": [],
+	"dependencies": [
+		{ "type": "script", "location": "remote", "source": "https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false" }
+	]
+}
