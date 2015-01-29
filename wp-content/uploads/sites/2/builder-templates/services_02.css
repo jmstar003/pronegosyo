@@ -1,0 +1,28 @@
+.services_02 .title {
+	text-align: center;
+	text-transform: uppercase;
+
+	padding-top: 0.75em;
+	padding-bottom: 0.75em;
+}
+
+.services_02 .details-container {
+	text-align: center;
+}
+
+.services_02 .list-container {
+	padding-top: 4em;
+}
+
+.services_02 .list-container .list-item {
+	padding-top: 2em;
+	padding-bottom: 2em;
+}
+
+.services_02 .list-container .list-item .item-title {
+	margin-top: 0;
+
+	font-weight: bold;
+
+	text-transform: uppercase;
+}

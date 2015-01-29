@@ -1,0 +1,19 @@
+.call_to_action_01 .title {
+	text-align: center;
+	text-transform: uppercase;
+
+	padding-top: 0.75em;
+	padding-bottom: 0.75em;
+}
+
+.call_to_action_01 .details-container {
+	text-align: center;
+
+	font-size: 1.5em;
+
+	padding-bottom: 3em;
+}
+
+.call_to_action_01 .action-container {
+
+}

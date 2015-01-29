@@ -1,0 +1,8 @@
+{
+	"id": "services_02",
+	"name": "Services 02",
+	"content-template": "services_02.php",
+	"default-css": "services_02.css",
+	"custom-fields": [],
+	"dependencies": []
+}

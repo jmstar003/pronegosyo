@@ -1,0 +1,13 @@
+{
+	"id": "testimonial_03",
+	"name": "Testimonial 03",
+	"content-template": "testimonial_03.php",
+	"default-css": "testimonial_03.css",
+	"custom-fields": [],
+	"dependencies": [
+		{ "type": "script", "location": "local", "source": "jquery.easing.1.3.js" },
+		{ "type": "script", "location": "local", "source": "jquery.fitvids.js" },
+		{ "type": "script", "location": "local", "source": "jquery.bxslider.min.js" },
+		{ "type": "style", 	"location": "local", "source": "magnific-popup/magnific-popup.css" }
+	]
+}

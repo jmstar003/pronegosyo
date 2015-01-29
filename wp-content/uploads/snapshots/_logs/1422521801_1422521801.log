@@ -1,0 +1,54 @@
+2015-01-29 09:12:58: restore: init
+2015-01-29 09:13:03: restore: table: pro_7_commentmeta (1/1)
+2015-01-29 09:13:06: restore: table: pro_7_commentmeta converting URLs from [://brandaction.ph] -> [://brandaction.pronegosyo.local]
+2015-01-29 09:13:07: restore: table: pro_7_comments (1/1)
+2015-01-29 09:13:11: restore: table: pro_7_comments converting URLs from [://brandaction.ph] -> [://brandaction.pronegosyo.local]
+2015-01-29 09:13:12: restore: table: pro_7_links (1/1)
+2015-01-29 09:13:13: restore: table: pro_7_links converting URLs from [://brandaction.ph] -> [://brandaction.pronegosyo.local]
+2015-01-29 09:13:14: restore: table: pro_7_options (1/1)
+2015-01-29 09:13:24: restore: table: pro_7_options converting URLs from [://brandaction.ph] -> [://brandaction.pronegosyo.local]
+2015-01-29 09:13:25: restore: table: pro_7_postmeta (1/15)
+2015-01-29 09:14:49: restore: table: pro_7_postmeta (2/15)
+2015-01-29 09:16:12: restore: table: pro_7_postmeta (3/15)
+2015-01-29 09:17:45: restore: table: pro_7_postmeta (4/15)
+2015-01-29 09:19:06: restore: table: pro_7_postmeta (5/15)
+2015-01-29 09:20:24: restore: table: pro_7_postmeta (6/15)
+2015-01-29 09:21:44: restore: table: pro_7_postmeta (7/15)
+2015-01-29 09:23:16: restore: table: pro_7_postmeta (8/15)
+2015-01-29 09:24:17: restore: table: pro_7_postmeta (9/15)
+2015-01-29 09:25:22: restore: table: pro_7_postmeta (10/15)
+2015-01-29 09:26:25: restore: table: pro_7_postmeta (11/15)
+2015-01-29 09:27:35: restore: table: pro_7_postmeta (12/15)
+2015-01-29 09:28:45: restore: table: pro_7_postmeta (13/15)
+2015-01-29 09:30:11: restore: table: pro_7_postmeta (14/15)
+2015-01-29 09:32:04: restore: table: pro_7_postmeta (15/15)
+2015-01-29 09:33:11: restore: table: pro_7_postmeta converting URLs from [://brandaction.ph] -> [://brandaction.pronegosyo.local]
+2015-01-29 09:33:26: restore: table: pro_7_posts (1/1)
+2015-01-29 09:33:57: restore: table: pro_7_posts converting URLs from [://brandaction.ph] -> [://brandaction.pronegosyo.local]
+2015-01-29 09:34:06: restore: table: pro_7_term_relationships (1/1)
+2015-01-29 09:34:09: restore: table: pro_7_term_relationships converting URLs from [://brandaction.ph] -> [://brandaction.pronegosyo.local]
+2015-01-29 09:34:09: restore: table: pro_7_term_taxonomy (1/1)
+2015-01-29 09:34:12: restore: table: pro_7_term_taxonomy converting URLs from [://brandaction.ph] -> [://brandaction.pronegosyo.local]
+2015-01-29 09:34:13: restore: table: pro_7_terms (1/1)
+2015-01-29 09:34:16: restore: table: pro_7_terms converting URLs from [://brandaction.ph] -> [://brandaction.pronegosyo.local]
+2015-01-29 09:34:17: restore: file-section: media
+2015-01-29 09:34:22: restore: finish:
+2015-01-29 09:34:22: drop original table: DROP TABLE `pro_2_commentmeta`;
+2015-01-29 09:34:23: rename restored table: ALTER TABLE `_snapshot_recover_pro_2_commentmeta` RENAME `pro_2_commentmeta`;
+2015-01-29 09:34:24: drop original table: DROP TABLE `pro_2_comments`;
+2015-01-29 09:34:24: rename restored table: ALTER TABLE `_snapshot_recover_pro_2_comments` RENAME `pro_2_comments`;
+2015-01-29 09:34:25: drop original table: DROP TABLE `pro_2_links`;
+2015-01-29 09:34:26: rename restored table: ALTER TABLE `_snapshot_recover_pro_2_links` RENAME `pro_2_links`;
+2015-01-29 09:34:26: drop original table: DROP TABLE `pro_2_options`;
+2015-01-29 09:34:27: rename restored table: ALTER TABLE `_snapshot_recover_pro_2_options` RENAME `pro_2_options`;
+2015-01-29 09:34:28: drop original table: DROP TABLE `pro_2_postmeta`;
+2015-01-29 09:34:29: rename restored table: ALTER TABLE `_snapshot_recover_pro_2_postmeta` RENAME `pro_2_postmeta`;
+2015-01-29 09:34:29: drop original table: DROP TABLE `pro_2_posts`;
+2015-01-29 09:34:31: rename restored table: ALTER TABLE `_snapshot_recover_pro_2_posts` RENAME `pro_2_posts`;
+2015-01-29 09:34:33: drop original table: DROP TABLE `pro_2_term_relationships`;
+2015-01-29 09:34:34: rename restored table: ALTER TABLE `_snapshot_recover_pro_2_term_relationships` RENAME `pro_2_term_relationships`;
+2015-01-29 09:34:35: drop original table: DROP TABLE `pro_2_term_taxonomy`;
+2015-01-29 09:34:35: rename restored table: ALTER TABLE `_snapshot_recover_pro_2_term_taxonomy` RENAME `pro_2_term_taxonomy`;
+2015-01-29 09:34:36: drop original table: DROP TABLE `pro_2_terms`;
+2015-01-29 09:34:36: rename restored table: ALTER TABLE `_snapshot_recover_pro_2_terms` RENAME `pro_2_terms`;
+2015-01-29 09:34:37: restore: memory_limit: 256M

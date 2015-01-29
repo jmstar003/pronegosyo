@@ -1,0 +1,140 @@
+@import url(http://fonts.googleapis.com/css?family=Noto+Sans:400,700);
+
+/* General */
+body {
+	font-family: 'Noto Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+section {
+	padding-top: 30px;
+	padding-bottom: 60px;
+	background-size: cover;
+	background-position: center center;
+}
+h1.title {
+	text-transform: none !important;
+}
+.social-container a {
+	margin-left: 0.75em;
+	margin-right: 0.75em;
+}
+.social-container i {
+  height: 2em;
+  width: 2em;
+  border-radius: 50%;
+  border: 1px solid #fff;
+  padding-top: 14px;
+}
+.btn.btn-inverse {
+	color: #ecf0f1;
+	background-color: rgba(189, 195, 199,0.3);
+	border: 1px solid #fff;
+	transition: background-color .25s ease-in-out;
+}
+.btn.btn-inverse:hover {
+	color: #ccc;
+	background-color: transparent;
+	border: 1px solid #ccc;
+}
+
+.btn.btn-inverse-dark {
+	color: #ecf0f1;
+	background-color: rgba(12, 12, 12,0.3);
+	border: 1px solid #444;
+	transition: background-color .25s ease-in-out;
+}
+.btn.btn-inverse-dark:hover {
+	color: #000;
+	background-color: transparent;
+	border: 1px solid #333;
+}
+#sidebar-wrapper {
+	background-color: rgba(0,0,0,0.85) !important;
+}
+
+.btn {
+	margin-top: 2em;
+}
+
+/* Home */
+#home.header_02 .sidebar-nav li,
+#home.header_02 .sidebar-nav li a {
+	color: #eee;
+	text-transform: uppercase;
+}
+#home.header_02 .sidebar-nav li.text-content a {
+	text-transform: none;
+}
+#home.header_02 .sidebar-nav li.text-content p {
+	margin: 0;
+}
+
+#brand360-services .btn {
+	color: #fff;
+	background-color: #363636;
+	border-color: rgba(0, 0, 0, 0.1);
+}
+
+#brand360-services .btn:hover {
+	color: #fff;
+	background-color: #262626;
+	border-color: rgba(0, 0, 0, 0.1);
+}
+
+/* Clients */
+#clients .list-items .item a.item_link .item_info h3,
+#clients .list-items .item a.item_link .item_info h3 small {
+	color: #fefefe;
+}
+
+#clients .btn {
+	color: #de0000;
+}
+
+/* Contact Us */
+#contact-us .social-container {
+	text-align: left;
+}
+#contact-us .social-container i {
+	text-align: center;
+}
+#contact-us .social-container a {
+	color: #fff;
+}
+#contact-us .btn {
+	color: #fff;
+	background-color: #363636;
+	border-color: rgba(0, 0, 0, 0.1);
+}
+#contact-us .btn:hover {
+	color: #fff;
+	background-color: #262626;
+	border-color: rgba(0, 0, 0, 0.1);
+}
+#contact-us .form-control {
+	background-color: transparent;
+	border-color: #fff;
+	color: #fefefe;
+}
+#contact-us .form-control::-webkit-input-placeholder { /* WebKit browsers */
+    color:    #fefefe;
+}
+#contact-us .form-control:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:    #fefefe;
+    opacity:  1;
+}
+#contact-us .form-control::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color:    #fefefe;
+    opacity:  1;
+}
+#contact-us .form-control:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color:    #fefefe;
+}
+
+/* Find Us */
+#find-us {
+	padding-top: 0;
+}
+#find-us .acf-map {
+	margin-top: 0;
+	padding-top: 0;
+}

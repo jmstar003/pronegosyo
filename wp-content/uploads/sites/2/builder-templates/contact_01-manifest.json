@@ -1,0 +1,8 @@
+{
+	"id": "contact_01",
+	"name": "Contact 01",
+	"content-template": "contact_01.php",
+	"default-css": "contact_01.css",
+	"custom-fields": [],
+	"dependencies": []
+}
