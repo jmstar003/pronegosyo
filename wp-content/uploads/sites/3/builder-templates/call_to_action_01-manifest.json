@@ -1,8 +1,0 @@
-{
-	"id": "call_to_action_01",
-	"name": "Call to Action 01",
-	"content-template": "call_to_action_01.php",
-	"default-css": "call_to_action_01.css",
-	"custom-fields": [],
-	"dependencies": []
-}

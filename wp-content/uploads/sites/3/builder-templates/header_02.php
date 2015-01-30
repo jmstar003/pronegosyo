@@ -1,78 +1,37 @@
-<!-- Header 02 -->
 <section id="<?php echo $post->post_name; ?>" class="header_02" style="<?php echo $background_color . $background_image . $content_color; ?>" data-autoheight="<?php echo $autofill_height; ?>"<?php echo $content_font; ?>>
-  <div class="container">
-    <?php if ($display_title) : ?>
-    <div class="row">
-      <div class="col-sm-8 col-sm-offset-2">
-        <h1 class="title"><?php the_title(); ?></h1>
-      </div>
-    </div>
-    <?php endif; ?>
-    <div class="row">
-      <div class="col-sm-8 col-sm-offset-2 details-container">
-        <h2><?php the_content(); ?></h2>
-      </div>
-    </div>
-    <?php if( get_field('action_content') ) : ?>
-    <div class="row">
-      <div class="col-sm-8 col-sm-offset-2 action-container">
-        <?php the_field('action_content'); ?>
-      </div>
-    </div>
-    <?php endif; ?>
-  </div>
-
-  <!-- Offcanvas navigation -->
-  <a id="menu-toggle" href="#" class="btn btn-default toggle"><i class="fa fa-bars"></i></a>
-  <div id="sidebar-wrapper">
-    <ul class="sidebar-nav">
-      <a id="menu-close" href="#" class="btn btn-default pull-right toggle"><i class="fa fa-times"></i></a>
-      <li class="sidebar-brand">
-        <!--
-        <a href="#"><?php the_title(); ?></a>
-        -->
-      </li>
-
-      <?php while ( have_rows('menu_list') ) : the_row(); $post_object = get_sub_field('item_target'); ?>
-      <li>
-        <a href="#<?php echo $post_object->post_name; ?>" data-toggle="scroll"><?php the_sub_field('item_label'); ?></a>
-      </li>
-      <?php endwhile; ?>
-
-      <li class="divider"></li>
-      <?php if( get_field('menu_additional_details') ) : ?>
-      <li class="text-content">
-        <?php the_field('menu_additional_details'); ?>
-      </li>
-      <?php endif; ?>
-
-      <?php if( have_rows('social_list') ): ?>
-      <li>
-        <div class="col-sm-12 social-container">
-          <?php while ( have_rows('social_list') ) : the_row(); ?>
-          <a href="<?php the_sub_field('social_url'); ?>" target="_blank"><i class="fa fa-<?php the_sub_field('social_site'); ?> fa-2x"></i></a>
-          <?php endwhile; ?>
+    <div class="container-fluid">
+        <table class="header_02-table">
+            <tr>
+                <td class="header_02-columns col-md-3" style="background: url(<?php echo get_field('left_column_background'); ?>) no-repeat center center;  -webkit-background-size:100%; -moz-background-size:95%; -o-background-size:95%; background-size:95%; ">
+                    
+                </td>
+                <td class="header_02-columns col-md-4" style="background: url(<?php echo get_field('center_column_background'); ?>) no-repeat center center;  -webkit-background-size:97%; -moz-background-size:97%; -o-background-size:97%; background-size:97%; ">
+                    <?php if (get_the_content()): ?>
+                        <?php echo get_the_content(); ?>
+                    <?php endif ?>
+                </td>
+                <td class="header_02-columns col-md-3" style="background: url(<?php echo get_field('right_column_background'); ?>) no-repeat center center;  -webkit-background-size:100%; -moz-background-size:95%; -o-background-size:95%; background-size:95%; ">
+                    
+                </td>
+            </tr>
+        </table>
+        <div class="container">
+            <a href="" id="header_02-btn" style="background: url(<?php echo get_field('button_background'); ?>) no-repeat center center;  -webkit-background-size:100%; -moz-background-size:100%; -o-background-size:100%; background-size:100%;">
+                <?php echo get_field('button_field'); ?>
+            </a>
+            
         </div>
-      </li>
-      <?php endif; ?>
+    </div>
+</section>
 
-    </ul>
-  </div>
-
-  <script type="text/javascript">
-    $(document).ready(function(){
-
-      $("#<?php echo $post->post_name; ?>.header_02 #menu-close").click(function(e) {
-          e.preventDefault();
-          $("#<?php echo $post->post_name; ?>.header_02 #sidebar-wrapper").toggleClass("active");
+<script>
+    $(window).load(function(){
+         
+        $("#<?php echo $post->post_name; ?>").css({
+            "min-height":$(window).height() - 10
         });
 
-      $("#<?php echo $post->post_name; ?>.header_02 #menu-toggle").click(function(e) {
-        e.preventDefault();
-        $("#<?php echo $post->post_name; ?>.header_02 #sidebar-wrapper").toggleClass("active");
-      });
-
+        var outerHeight = $(".header_02-columns").outerWidth() + $(".header_02-columns").outerWidth() / 2;
+        $(".header_02-table").height(outerHeight);
     });
-  </script>
-
-</section>
+</script>

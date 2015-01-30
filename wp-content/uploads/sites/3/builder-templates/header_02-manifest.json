@@ -1,6 +1,6 @@
 {
 	"id": "header_02",
-	"name": "Header 02",
+	"name": "header 02",
 	"content-template": "header_02.php",
 	"default-css": "header_02.css",
 	"custom-fields": [],
