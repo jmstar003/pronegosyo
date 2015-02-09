@@ -1,0 +1,313 @@
+@import url(http://fonts.googleapis.com/css?family=Questrial);
+
+
+@font-face {
+    font-family: 'fontscorecomttwcenmt';
+    src: url('fonts/fontscorecomttwcenmt.eot');
+    src: local('fontscorecomttwcenmt'), 
+    url('fonts/fontscorecomttwcenmt.woff') format('woff'), 
+    url('fonts/fontscorecomttwcenmt.ttf') format('truetype');
+}
+/* use this class to attach this font to any element i.e. <p class="fontsforweb_fontid_13141">Text with this font applied</p> */
+.fontsforweb_fontid_13141 {
+    font-family: 'fontscorecomttwcenmt' !important;
+}
+
+section
+{
+
+}
+
+#header_02 .header_02_custom-table
+{
+    margin-top: 0px;
+}
+
+#header_02 .header_02_custom-columns
+{
+    /*border-radius: 50%;*/
+    /*border:10px solid #ff782e;*/
+    margin-top: -15px;
+    float: left;
+}
+
+#header_02 .header_02_custom-columns:nth-child(1)
+{
+    margin-top: 2%;
+    min-height: 450px;
+}
+
+#header_02 .header_02_custom-columns:nth-child(3)
+{
+    margin-top: 1.9%;
+    min-height: 450px; 
+}
+
+
+#header_02 .header_02_custom-columns:nth-child(1)
+{
+    background: url("images/left-bg.png"), url("images/background_02.png");  
+
+    -webkit-background-size: 0%, 312.7%; 
+    -moz-background-size: 0%, 312.7%; 
+    -o-background-size: 0%, 312.7%; 
+    background-size: 0%, 312.7%; 
+    
+    background-repeat: no-repeat, no-repeat;
+    background-position:72.5% 50%, -5% 41.3%; 
+    -webkit-animation: animatedLeft 1s linear 1;
+    animation: animatedLeft 1s linear 1;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+
+    width: 30%;
+}
+
+@-webkit-keyframes animatedLeft{
+    from {background-size: 0%, 312.7%; }
+    to { background-size: 63%, 312.7%; }
+}
+
+@keyframes animatedLeft{
+    from {background-size: 0%, 312.7%; }
+    to { background-size: 63%, 312.7%; }
+}
+
+#header_02 .header_02_custom-columns:nth-child(2)
+{
+    background: url("images/center-bg.png"), url("images/background_02.png");  
+
+    -webkit-background-size:0%, 235%; 
+    -moz-background-size:0%, 235%; 
+    -o-background-size:0, 235%;
+    background-size: 0, 235%; 
+    background-repeat: no-repeat, no-repeat;
+    background-position:57.5% 55%, 50% 41%;
+    
+    -webkit-animation: animatedCenter 1s linear 1;
+    animation: animatedCenter 1s linear 1;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;    
+
+    width: 40%;
+    min-height: 480px;
+    position: relative;
+    top: 25px;
+}
+
+@-webkit-keyframes animatedCenter{
+    from {background-size: 0%, 235%; }
+    to { background-size: 86.5%, 235%; }
+}
+
+@keyframes animatedCenter{
+    from {background-size: 0%, 235%; }
+    to { background-size: 86.5%, 235%; }
+}
+
+#header_02 .header_02_custom-columns:nth-child(3)
+{
+    background: url("images/right-bg.png"), url("images/background_02.png");  
+    background-repeat: no-repeat, no-repeat; 
+
+    -webkit-background-size:0%, 312.7%; 
+    -moz-background-size:0%, 312.7%; 
+    -o-background-size:0%, 312.7%;
+    background-size:0%, 312.7%; 
+    background-position:0% 49.6%, 105% 41.2%; 
+
+    -webkit-animation: animatedRight 1s linear 1;
+    animation: animatedRight 1s linear 1;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;    
+
+    width: 30%;
+
+}
+
+@-webkit-keyframes animatedRight{
+    from {background-size: 0%, 312.7%; }
+    to { background-size:82%, 312.7%; }
+}
+
+@keyframes animatedRight{
+    from {background-size: 312.7%; }
+    to { background-size:82%, 312.7%; }
+}
+
+#header_02 #header_02_custom-btn
+{
+    border: 5px solid #FF782E;
+    border-radius: 50%;
+    color: rgba(0, 0, 0, 0); 
+    width: 90px;
+    height: 90px;
+    padding: 22px 8px;
+    text-transform: uppercase;
+    font-size: 12px;
+    line-height: 122%;
+    font-family: sans-serif;
+    color: #b1b3b3;
+    background: transparent;
+    
+    -webkit-animation: fontColor 1s linear 1;
+    animation: fontColor 1s linear 1;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;    
+    
+    margin-top: 40px;
+    margin-bottom: 25px;
+    text-decoration: none;
+}
+
+@-webkit-keyframes fontColor{
+    from {color: rgba(0, 0, 0, 0);  }
+    to { color: #b1b3b3 }
+}
+
+@keyframes fontColor{
+    from {color: rgba(0, 0, 0, 0);  }
+    to { color: #b1b3b3 }
+}
+
+#header_02 a#header_02_custom-btn:hover
+{
+    color: #3a3b3b !important;
+    background: #FFF;
+    text-decoration: none;
+}
+
+#header_02 .container-fluid
+{
+    max-width: 1200px;
+}
+
+.clearfix
+{
+    clear: both;
+}
+
+#who-we-are .container-fluid
+{
+    max-width: 1100px;
+}
+
+#who-we-are
+{
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.header_02Content
+{
+    font-family: 'Questrial', sans-serif;
+    /*font-weight: 600;*/
+    color: transparent;
+}
+
+.header_02Content
+{
+    letter-spacing: 2px;
+    word-spacing: 5px;
+}
+
+a.header_02Content:hover .display_table_row p
+{
+    color: #FFF;
+}
+
+.action_01cus
+{
+    font-family: 'fontscorecomttwcenmt';
+    letter-spacing: 1px;
+}
+
+.action_01cus_image_wrappers,
+.action_01cus-img
+{
+    float: left;
+}
+
+.action_01cus-img
+{
+    width: 25%; 
+}
+
+.action_01cus_image_wrappers
+{
+    width: 75%;
+    color: #FFF;
+}
+
+.a01img-left
+{
+    margin-top: 60%;
+}
+
+.action_01cus_image_wrappers img
+{
+    width: 100px;
+}
+
+.lowerIMG
+{
+    margin-top: 55px;
+}
+
+.a01img-small
+{
+    width: 15%;
+}
+
+.a01img-small-top
+{
+    margin-top: 25px;
+}
+
+.act01-img-separator .action_01cus_image_wrappers
+{
+    width: 70%;
+    margin-top: 25px;
+    color: #FFF;
+}
+
+#act01-img-separator-margin50
+{
+    margin-top: 50px;
+}
+
+#act01-img-separator-margin50 .action_01cus-img
+{
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+}
+
+div#action_01-button-wrapper a,
+div#action_01cus-button-wrapper a
+{
+
+    font-family: 'fontscorecomttwcenmt';
+    text-align: center;
+    display: block;
+}
+
+.action-01-items
+{
+    font-family: 'fontscorecomttwcenmt'; 
+    font-size: 18px; 
+    letter-spacing: 1px;
+}   
+
+.gallery_01-title
+{
+    font-family: 'fontscorecomttwcenmt';  
+}
+
+.gallery_01-img-content
+{
+    font-family: 'fontscorecomttwcenmt';   
+}

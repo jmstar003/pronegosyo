@@ -1,0 +1,8 @@
+{
+	"id": "header_02_custom",
+	"name": "header 02 - custom",
+	"content-template": "header_02_custom.php",
+	"default-css": "header_02_custom.css",
+	"custom-fields": [],
+	"dependencies": []
+}

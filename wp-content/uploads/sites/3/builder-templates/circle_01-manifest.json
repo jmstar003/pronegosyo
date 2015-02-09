@@ -1,0 +1,8 @@
+{
+	"id": "circle_01",
+	"name": "Circle 01",
+	"content-template": "circle_01.php",
+	"default-css": "circle_01.css",
+	"custom-fields": [],
+	"dependencies": []
+}

@@ -1,0 +1,8 @@
+{
+	"id": "action_01cus",
+	"name": "Action 01 - cus",
+	"content-template": "action_01cus.php",
+	"default-css": "action_01cus.css",
+	"custom-fields": [],
+	"dependencies": []
+}

@@ -1,0 +1,39 @@
+.action_01cus-img
+{
+    margin-top: 25px;
+    margin-bottom: 15px;
+    width: 100px;
+}
+
+.action_01cus-imgwrap
+{
+    margin-bottom: 25px;
+    font-size: 18px;
+}
+
+/*.act01-imholder 
+{
+    width: 30%;
+    float: left;
+    text-align: center;
+}*/
+
+.action_01cus-imgwrap p
+{
+    margin-top: 5px;
+}
+
+div#action_01cus-button-wrapper 
+{
+    width: 280px;
+    margin: 25px auto;
+    background: rgba(255, 255, 255, 0.19);
+    padding: 5px 10px;
+    border-radius: 7px;
+}
+
+div#action_01cus-button-wrapper a
+{
+    color: #FFF;
+    text-align: center;
+}

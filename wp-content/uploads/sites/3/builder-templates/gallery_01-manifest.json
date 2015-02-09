@@ -1,0 +1,11 @@
+{
+	"id": "gallery_01",
+	"name": "Gallery 01",
+	"content-template": "gallery_01.php",
+	"default-css": "gallery_01.css",
+	"custom-fields": [],
+	"dependencies": [
+        { "type": "script", "location": "local", "source": "jquery.bxslider.min.js" },
+        { "type": "style",  "location": "local", "source": "jquery.bxslider.css" }
+    ]
+}
