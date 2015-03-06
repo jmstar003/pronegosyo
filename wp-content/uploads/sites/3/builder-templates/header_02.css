@@ -97,10 +97,10 @@ table.header_02-table
 }
 
 
-.header_02Content_loaded
+/* .header_02.active .header_02Content
 {
-    -webkit-animation: weArefontColor 1s linear 1;
-    animation: weArefontColor 1s linear 1;
+    -webkit-animation: weArefontColor 2s linear 1;
+    animation: weArefontColor 2s linear 1;
     -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards; 
 }
@@ -113,4 +113,83 @@ table.header_02-table
 @keyframes weArefontColor{
     from {color: rgba(0, 0, 0, 0);  }
     to { color: #313033 }
-} 
+}  */
+
+@media (max-width: 1050px) {
+
+    .header_02_columns:nth-child(2) .header_02Content {
+        font-size: 15px;
+    }     
+}
+
+@media (max-width: 910px) {
+    .header_02_columns:nth-child(2) .header_02Content {
+        font-size: 13px;
+        padding: 28px;
+    } 
+
+    .header_02_columns:nth-child(2) .header_02Content h2{
+        font-size: 17px;
+    } 
+
+    .header_02_columns:nth-child(1) .header_02Content .display_table > div, .header_02_columns:nth-child(3) .header_02Content .display_table > div {
+        display: table-cell;
+        vertical-align: middle;
+        text-align: center;
+        font-weight: bold;
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 768px) {
+    .header_02_columns
+    {
+        width: 250px;
+        margin: 10px auto;
+    }
+
+    .header_02_columns:nth-child(2) 
+    {
+        max-width: 520px;
+        width: 100%;
+    }
+
+    .header_02_columns:nth-child(2) .header_02Content {
+        font-size: 19px;
+        padding: 60px 10px
+    } 
+
+    .header_02_columns:nth-child(2) .header_02Content h2{
+        font-size: 17px;
+    } 
+}
+
+@media (max-width: 452px) {
+     .header_02_columns:nth-child(2) .header_02Content {
+        font-size: 15px;
+        padding: 28px;
+    } 
+    .header_02_columns:nth-child(2) .header_02Content h2{
+        font-size: 17px;
+    } 
+}
+
+@media (max-width: 420px) {
+    .header_02_columns:nth-child(2) .header_02Content {
+        font-size: 12px;
+        padding: 28px 15px;
+    } 
+
+    .header_02_columns:nth-child(2) .header_02Content h2{
+        font-size: 14px;
+        margin: 6px;
+    } 
+
+    .header_02_columns:nth-child(1) .header_02Content .display_table > div, .header_02_columns:nth-child(3) .header_02Content .display_table > div {
+        display: table-cell;
+        vertical-align: middle;
+        text-align: center;
+        font-weight: bold;
+        font-size: 16px;
+    }
+}

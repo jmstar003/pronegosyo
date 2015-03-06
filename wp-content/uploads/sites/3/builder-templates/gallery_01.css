@@ -25,13 +25,13 @@
 
 
 .gallery_01-wrapper {
-    width: 700px;
+    max-width: 700px;
     margin: 10px auto;
 }
 .gallery_01-wrapper ul
 {
-    margin-left: 0px;
-    padding-left: 0px;
+/*    margin-left: 0px;
+    padding-left: 0px;*/
 }
 
 .gallery_01-img-content
@@ -39,6 +39,7 @@
     max-width: 700px;
     text-align: center;
     margin: 35px auto 0;
+    position: relative;
 }
  
 
@@ -50,7 +51,8 @@
 
 .gallery_01-wrapper .bx-wrapper
 {
-    margin-bottom: 45px;
+    /*margin-bottom: 45px;*/
+    width: 700px;
 }
 
 .gallery_01-wrapper-smaller
@@ -59,6 +61,7 @@
     height: 75px;
     width: 100%;
     background: #FFF;
+    overflow: hidden;
     bottom: 0px;
 }
 
@@ -87,14 +90,83 @@
     margin-top: -32px !important;
 }
 
-.gallery_01-wrapper .bx-wrapper .bx-next,
-.gallery_01_thumbnails .bx-wrapper .bx-next
+.gallery_01-wrapper .bx-wrapper li img
 {
-    right: -70px;
+    width: 700px !important
 }
 
-.gallery_01-wrapper .bx-wrapper .bx-prev,
-.gallery_01_thumbnails .bx-wrapper .bx-prev
+.gallery_01_thumbnails .bx-wrapper a:hover
 {
-    left: -85px;
+    cursor: pointer;
+}
+
+.gall-01-getintouch {
+    position: absolute;
+    right: -110px;
+    top: 5px;
+}
+
+
+#gallery_01_custom-btn 
+{
+    display: block;
+    line-height: 111%;
+    font-size: 12px;
+    background: #9ee5e8;
+    padding: 10px 15px;
+    border-radius: 11px;
+    color: #000;
+}
+
+#gallery_01_custom-btn:hover
+{
+    text-decoration: none;
+}
+
+@media (min-width: 769px) {
+    .gallery_01-wrapper .bx-wrapper .bx-next,
+    .gallery_01_thumbnails .bx-wrapper .bx-next
+    {
+        right: -70px;
+    }
+
+    .gallery_01-wrapper .bx-wrapper .bx-prev,
+    .gallery_01_thumbnails .bx-wrapper .bx-prev
+    {
+        left: -85px;
+    }
+}
+
+@media (max-width: 768px) {
+    #sliderthumb
+    {
+        display: none;
+    }
+    .bx-wrapper .bx-next
+    {
+        right: 20px !important;
+    }
+
+    .gall-01-getintouch
+    {
+        position: initial; 
+        width: 145px;
+        display: block;
+        margin: 10px auto;
+    }
+
+    .contact_03-table, .contact_03-table tbody, .contact_03-table tbody tr, .contact_03-table tbody td, .contact_03-table tbody th
+    {
+        display: block;
+    }
+    .gallery_01-wrapper .bx-wrapper
+    {
+        width: 95%;
+        margin: 10px auto;
+    }
+
+    .gallery_01-wrapper .bx-wrapper li img
+    {
+        max-width: 100% !important;
+    }
 }

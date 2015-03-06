@@ -48,18 +48,18 @@
             transform: rotate(0deg);
 }
 
-.rotate_circle
+.circle_01.active .rotate_circle
 {
-    -webkit-animation: spin 1s linear 1;
-    animation: spin 1s linear 1;
+    -webkit-animation: spin 2s linear 1;
+    animation: spin 2s linear 1;
     -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;   
 }
 
-.rotate_circle_alternate
+.circle_01.active .rotate_circle_alternate
 {
-    -webkit-animation: spin_alternative 1s linear 1;
-    animation: spin_alternative 1s linear 1;
+    -webkit-animation: spin_alternative 1.5s linear 1;
+    animation: spin_alternative 1.5s linear 1;
     -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;  
     animation-direction: alternate;

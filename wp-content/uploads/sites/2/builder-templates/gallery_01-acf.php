@@ -13,8 +13,8 @@ if(function_exists("register_field_group"))
                 'sub_fields' => array (
                     array (
                         'key' => 'field_54d8ae3d7249f',
-                        'label' => 'Image',
-                        'name' => 'Title',
+                        'label' => 'Title',
+                        'name' => 'title',
                         'type' => 'text',
                         'column_width' => '',
                         'default_value' => '',

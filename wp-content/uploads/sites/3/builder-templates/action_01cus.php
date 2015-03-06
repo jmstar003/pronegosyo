@@ -5,7 +5,7 @@ $custom_templates_dir = $upload_dir_data['basedir'] . DIRECTORY_SEPARATOR . 'bui
 $param  = "uploads";
 $uploadurl = $upload_dir_data["baseurl"] ; 
 ?>
-<section id="<?php echo $post->post_name; ?>" class="action_01cus" style="<?php echo $background_color . $background_image . $content_color; ?>" data-autoheight="<?php echo $autofill_height; ?>"<?php echo $content_font; ?>>
+<section id="<?php echo $post->post_name; ?>" class="action_01cus section" style="<?php echo $background_color . $background_image . $content_color; ?>" data-autoheight="<?php echo $autofill_height; ?>"<?php echo $content_font; ?>>
     <div class="container">
         <div class="action_01cus-title text-center">
             <img src="<?php echo get_field("logo"); ?>" class="" width="300">
@@ -65,7 +65,16 @@ $uploadurl = $upload_dir_data["baseurl"] ;
             </div>
         </div> 
         <div id="action_01cus-button-wrapper">
-            <a href="#">DON’T JUST TAKE OUR WORD FOR IT</a>
+            <a href="#" class="scoll-btn" data-anchor="5">DON’T JUST TAKE OUR WORD FOR IT</a>
         </div>
     </div>
+    <?php if (get_field('allow_full-page_scrolling', 'option') == "Yes"): ?>
+    <script>
+        $("a").click(function(){
+            var anchor = $(this).data("anchor");
+            $.fn.fullpage.moveTo(anchor);
+            return false;
+        });
+    </script>
+    <?php endif ?>
 </section>

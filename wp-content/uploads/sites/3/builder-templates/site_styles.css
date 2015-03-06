@@ -123,7 +123,33 @@ section
 
     width: 30%;
 
+} 
+.header_02.active .header_02Content
+{
+     -webkit-animation: weArefontColor 2s linear 1;
+    animation: weArefontColor 2s linear 1;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards; 
 }
+
+/*
+section.active .header_02_columns
+{
+    -webkit-animation: weArefontColor 1s linear 1;
+    animation: weArefontColor 1s linear 1;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards; 
+}*/
+
+@-webkit-keyframes weArefontColor{
+    from {color: rgba(0, 0, 0, 0);  }
+    to { color: #313033 }
+}
+
+@keyframes weArefontColor{
+    from {color: rgba(0, 0, 0, 0);  }
+    to { color: #313033 }
+} 
 
 @-webkit-keyframes animatedRight{
     from {background-size: 0%, 312.7%; }
@@ -310,4 +336,81 @@ div#action_01cus-button-wrapper a
 .gallery_01-img-content
 {
     font-family: 'fontscorecomttwcenmt';   
+}
+
+.contact_03-title
+{
+    font-family: 'fontscorecomttwcenmt';   
+    margin-top: 40px;
+}
+
+
+.contact_03-details
+{
+    color: #FFF;
+    text-align: center;
+    font-family: 'fontscorecomttwcenmt'; 
+    font-size: 18px;
+    font-weight: normal;
+    margin-bottom: 25px;
+}
+
+.brand_headerimg
+{ 
+}
+
+.ba_imagewrapper
+{
+    padding: 20px;    
+    border: 7px solid #FF782E;
+    border-radius: 50%;
+    margin-top: 25%;    
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (max-width: 768px) {
+    .section
+    {
+        height: auto !important;
+    }
+    .action_01cus-img
+    {
+        display: none;
+    }
+    .action_01cus_image_wrappers, .act01-imholder
+    {
+        margin: 0 auto;
+        float: none;
+    }
+
+    #brandaction-page
+    {
+        background-size: cover;
+    }
+
+    #brand-action-360
+    {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        height: 750px;
+        min-height: 0px !important;
+    }
+
+    .circle_mobile 
+    {
+        text-align: center;
+    }
+
+    .circle_mobile img
+    {
+        width: 90%;
+
+    }
+
+    #our-clients
+    {
+        min-height: 100% !important;
+        padding-bottom: 25px;
+    }
 }

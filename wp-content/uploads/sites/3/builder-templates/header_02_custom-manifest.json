@@ -4,5 +4,7 @@
 	"content-template": "header_02_custom.php",
 	"default-css": "header_02_custom.css",
 	"custom-fields": [],
-	"dependencies": []
+	"dependencies": [ 
+        { "type": "script", "location": "local", "source": "jquery.fullPage.ready.js" }
+    ]
 }

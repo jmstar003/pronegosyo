@@ -1,0 +1,174 @@
+2015-02-10 18:04:57: Backup: init
+2015-02-10 18:04:57: adding new snapshot: 1423591476
+2015-02-10 18:04:59: table: pro_3_commentmeta segment: 1/1
+2015-02-10 18:05:01: table: pro_3_comments segment: 1/1
+2015-02-10 18:05:02: table: pro_3_links segment: 1/1
+2015-02-10 18:05:03: table: pro_3_options segment: 1/1
+2015-02-10 18:05:04: table: pro_3_postmeta segment: 1/2
+2015-02-10 18:05:05: table: pro_3_postmeta segment: 2/2
+2015-02-10 18:05:07: table: pro_3_posts segment: 1/1
+2015-02-10 18:05:08: table: pro_3_term_relationships segment: 1/1
+2015-02-10 18:05:09: table: pro_3_term_taxonomy segment: 1/1
+2015-02-10 18:05:10: table: pro_3_terms segment: 1/1
+2015-02-10 18:05:12: file: section: media
+2015-02-10 18:05:12: file: wp-content/uploads/sites/3/builder-templates/action_01-manifest.json
+2015-02-10 18:05:12: file: wp-content/uploads/sites/3/builder-templates/action_01.css
+2015-02-10 18:05:12: file: wp-content/uploads/sites/3/builder-templates/action_01.php
+2015-02-10 18:05:12: file: wp-content/uploads/sites/3/builder-templates/action_01cus-manifest.json
+2015-02-10 18:05:12: file: wp-content/uploads/sites/3/builder-templates/action_01cus.css
+2015-02-10 18:05:12: file: wp-content/uploads/sites/3/builder-templates/action_01cus.php
+2015-02-10 18:05:12: file: wp-content/uploads/sites/3/builder-templates/circle_01-manifest.json
+2015-02-10 18:05:12: file: wp-content/uploads/sites/3/builder-templates/circle_01.css
+2015-02-10 18:05:12: file: wp-content/uploads/sites/3/builder-templates/circle_01.php
+2015-02-10 18:05:12: file: wp-content/uploads/sites/3/builder-templates/contact_03-manifest.json
+2015-02-10 18:05:12: file: wp-content/uploads/sites/3/builder-templates/contact_03.css
+2015-02-10 18:05:12: file: wp-content/uploads/sites/3/builder-templates/contact_03.php
+2015-02-10 18:05:12: file: wp-content/uploads/sites/3/builder-templates/gallery_01-manifest.json
+2015-02-10 18:05:12: file: wp-content/uploads/sites/3/builder-templates/gallery_01.css
+2015-02-10 18:05:12: file: wp-content/uploads/sites/3/builder-templates/gallery_01.php
+2015-02-10 18:05:12: file: wp-content/uploads/sites/3/builder-templates/header_02-manifest.json
+2015-02-10 18:05:12: file: wp-content/uploads/sites/3/builder-templates/header_02.css
+2015-02-10 18:05:12: file: wp-content/uploads/sites/3/builder-templates/header_02.php
+2015-02-10 18:05:12: file: wp-content/uploads/sites/3/builder-templates/header_02_custom-manifest.json
+2015-02-10 18:05:12: file: wp-content/uploads/sites/3/builder-templates/header_02_custom.css
+2015-02-10 18:05:12: file: wp-content/uploads/sites/3/builder-templates/header_02_custom.php
+2015-02-10 18:05:12: file: wp-content/uploads/sites/3/builder-templates/site_styles.css
+2015-02-10 18:05:13: file: section: media/2015/01
+2015-02-10 18:05:15: file: wp-content/uploads/sites/3/2015/01/0838f85b42674ca84325b93f64c4237de5624693_original-1024x764.jpg
+2015-02-10 18:05:15: file: wp-content/uploads/sites/3/2015/01/0838f85b42674ca84325b93f64c4237de5624693_original-150x150.jpg
+2015-02-10 18:05:15: file: wp-content/uploads/sites/3/2015/01/0838f85b42674ca84325b93f64c4237de5624693_original-300x224.jpg
+2015-02-10 18:05:15: file: wp-content/uploads/sites/3/2015/01/0838f85b42674ca84325b93f64c4237de5624693_original.jpg
+2015-02-10 18:05:15: file: wp-content/uploads/sites/3/2015/01/Untitled-2-150x150.png
+2015-02-10 18:05:15: file: wp-content/uploads/sites/3/2015/01/Untitled-2-260x300.png
+2015-02-10 18:05:15: file: wp-content/uploads/sites/3/2015/01/Untitled-2.png
+2015-02-10 18:05:15: file: wp-content/uploads/sites/3/2015/01/Untitled-3-150x150.png
+2015-02-10 18:05:15: file: wp-content/uploads/sites/3/2015/01/Untitled-3-300x300.png
+2015-02-10 18:05:15: file: wp-content/uploads/sites/3/2015/01/Untitled-3.png
+2015-02-10 18:05:15: file: wp-content/uploads/sites/3/2015/01/backgroun_1-1024x768.jpg
+2015-02-10 18:05:15: file: wp-content/uploads/sites/3/2015/01/backgroun_1-150x150.jpg
+2015-02-10 18:05:15: file: wp-content/uploads/sites/3/2015/01/backgroun_1-300x225.jpg
+2015-02-10 18:05:15: file: wp-content/uploads/sites/3/2015/01/backgroun_1.jpg
+2015-02-10 18:05:15: file: wp-content/uploads/sites/3/2015/01/colorbackground-150x150.png
+2015-02-10 18:05:15: file: wp-content/uploads/sites/3/2015/01/colorbackground-300x300.png
+2015-02-10 18:05:15: file: wp-content/uploads/sites/3/2015/01/colorbackground-small-150x150.png
+2015-02-10 18:05:15: file: wp-content/uploads/sites/3/2015/01/colorbackground-small-300x300.png
+2015-02-10 18:05:15: file: wp-content/uploads/sites/3/2015/01/colorbackground-small.png
+2015-02-10 18:05:15: file: wp-content/uploads/sites/3/2015/01/colorbackground.png
+2015-02-10 18:05:15: file: wp-content/uploads/sites/3/2015/01/gear.png
+2015-02-10 18:05:15: file: wp-content/uploads/sites/3/2015/01/homepage-1024x768.png
+2015-02-10 18:05:15: file: wp-content/uploads/sites/3/2015/01/homepage-150x150.png
+2015-02-10 18:05:15: file: wp-content/uploads/sites/3/2015/01/homepage-300x225.png
+2015-02-10 18:05:15: file: wp-content/uploads/sites/3/2015/01/homepage.png
+2015-02-10 18:05:15: file: wp-content/uploads/sites/3/2015/01/image4-150x150.png
+2015-02-10 18:05:15: file: wp-content/uploads/sites/3/2015/01/image4-261x300.png
+2015-02-10 18:05:15: file: wp-content/uploads/sites/3/2015/01/image4.png
+2015-02-10 18:05:15: file: wp-content/uploads/sites/3/2015/01/image41-150x150.png
+2015-02-10 18:05:15: file: wp-content/uploads/sites/3/2015/01/image41-261x300.png
+2015-02-10 18:05:15: file: wp-content/uploads/sites/3/2015/01/image41.png
+2015-02-10 18:05:15: file: wp-content/uploads/sites/3/2015/01/whoweare-1024x768.png
+2015-02-10 18:05:15: file: wp-content/uploads/sites/3/2015/01/whoweare-150x150.png
+2015-02-10 18:05:15: file: wp-content/uploads/sites/3/2015/01/whoweare-300x225.png
+2015-02-10 18:05:15: file: wp-content/uploads/sites/3/2015/01/whoweare.png
+2015-02-10 18:05:16: file: section: media/2015/02
+2015-02-10 18:05:18: file: wp-content/uploads/sites/3/2015/02/360bg-150x150.png
+2015-02-10 18:05:18: file: wp-content/uploads/sites/3/2015/02/360bg-e1423465396805.png
+2015-02-10 18:05:18: file: wp-content/uploads/sites/3/2015/02/360bg.png
+2015-02-10 18:05:18: file: wp-content/uploads/sites/3/2015/02/BRAND360PAGE-1024x768.png
+2015-02-10 18:05:18: file: wp-content/uploads/sites/3/2015/02/BRAND360PAGE-150x150.png
+2015-02-10 18:05:18: file: wp-content/uploads/sites/3/2015/02/BRAND360PAGE-300x225.png
+2015-02-10 18:05:18: file: wp-content/uploads/sites/3/2015/02/BRAND360PAGE.png
+2015-02-10 18:05:18: file: wp-content/uploads/sites/3/2015/02/ads-150x150.png
+2015-02-10 18:05:18: file: wp-content/uploads/sites/3/2015/02/ads.png
+2015-02-10 18:05:18: file: wp-content/uploads/sites/3/2015/02/b360bai-1024x768.png
+2015-02-10 18:05:18: file: wp-content/uploads/sites/3/2015/02/b360bai-150x150.png
+2015-02-10 18:05:18: file: wp-content/uploads/sites/3/2015/02/b360bai-300x225.png
+2015-02-10 18:05:18: file: wp-content/uploads/sites/3/2015/02/b360bai.png
+2015-02-10 18:05:18: file: wp-content/uploads/sites/3/2015/02/brandactionpageN-1024x768.png
+2015-02-10 18:05:18: file: wp-content/uploads/sites/3/2015/02/brandactionpageN-150x150.png
+2015-02-10 18:05:18: file: wp-content/uploads/sites/3/2015/02/brandactionpageN-300x225.png
+2015-02-10 18:05:18: file: wp-content/uploads/sites/3/2015/02/brandactionpageN.png
+2015-02-10 18:05:18: file: wp-content/uploads/sites/3/2015/02/city-q-c-790-365-1-150x150.jpg
+2015-02-10 18:05:18: file: wp-content/uploads/sites/3/2015/02/city-q-c-790-365-1-300x139.jpg
+2015-02-10 18:05:18: file: wp-content/uploads/sites/3/2015/02/city-q-c-790-365-1.jpg
+2015-02-10 18:05:18: file: wp-content/uploads/sites/3/2015/02/city-q-c-790-365-7-150x150.jpg
+2015-02-10 18:05:18: file: wp-content/uploads/sites/3/2015/02/city-q-c-790-365-7-300x139.jpg
+2015-02-10 18:05:18: file: wp-content/uploads/sites/3/2015/02/city-q-c-790-365-7.jpg
+2015-02-10 18:05:18: file: wp-content/uploads/sites/3/2015/02/contact-us-1024x768.png
+2015-02-10 18:05:18: file: wp-content/uploads/sites/3/2015/02/contact-us-150x150.png
+2015-02-10 18:05:18: file: wp-content/uploads/sites/3/2015/02/contact-us-300x225.png
+2015-02-10 18:05:18: file: wp-content/uploads/sites/3/2015/02/contact-us.png
+2015-02-10 18:05:18: file: wp-content/uploads/sites/3/2015/02/event-150x150.png
+2015-02-10 18:05:18: file: wp-content/uploads/sites/3/2015/02/event.png
+2015-02-10 18:05:18: file: wp-content/uploads/sites/3/2015/02/image-150x150.png
+2015-02-10 18:05:18: file: wp-content/uploads/sites/3/2015/02/image-300x112.png
+2015-02-10 18:05:18: file: wp-content/uploads/sites/3/2015/02/image.png
+2015-02-10 18:05:18: file: wp-content/uploads/sites/3/2015/02/market-150x150.png
+2015-02-10 18:05:18: file: wp-content/uploads/sites/3/2015/02/market.png
+2015-02-10 18:05:18: file: wp-content/uploads/sites/3/2015/02/media-150x150.png
+2015-02-10 18:05:18: file: wp-content/uploads/sites/3/2015/02/media.png
+2015-02-10 18:05:18: file: wp-content/uploads/sites/3/2015/02/nature-q-c-790-365-9-150x150.jpg
+2015-02-10 18:05:18: file: wp-content/uploads/sites/3/2015/02/nature-q-c-790-365-9-300x139.jpg
+2015-02-10 18:05:18: file: wp-content/uploads/sites/3/2015/02/nature-q-c-790-365-9.jpg
+2015-02-10 18:05:18: file: wp-content/uploads/sites/3/2015/02/nightlife-q-c-790-365-4-150x150.jpg
+2015-02-10 18:05:18: file: wp-content/uploads/sites/3/2015/02/nightlife-q-c-790-365-4-300x139.jpg
+2015-02-10 18:05:18: file: wp-content/uploads/sites/3/2015/02/nightlife-q-c-790-365-4.jpg
+2015-02-10 18:05:18: file: wp-content/uploads/sites/3/2015/02/ourclients-bg-1024x768.png
+2015-02-10 18:05:18: file: wp-content/uploads/sites/3/2015/02/ourclients-bg-150x150.png
+2015-02-10 18:05:18: file: wp-content/uploads/sites/3/2015/02/ourclients-bg-300x225.png
+2015-02-10 18:05:18: file: wp-content/uploads/sites/3/2015/02/ourclients-bg.png
+2015-02-10 18:05:18: file: wp-content/uploads/sites/3/2015/02/pr-150x150.png
+2015-02-10 18:05:18: file: wp-content/uploads/sites/3/2015/02/pr.png
+2015-02-10 18:05:18: file: wp-content/uploads/sites/3/2015/02/right-bg-150x150.png
+2015-02-10 18:05:18: file: wp-content/uploads/sites/3/2015/02/right-bg-300x253.png
+2015-02-10 18:05:18: file: wp-content/uploads/sites/3/2015/02/right-bg.png
+2015-02-10 18:05:18: file: wp-content/uploads/sites/3/2015/02/technics-q-c-790-365-6-150x150.jpg
+2015-02-10 18:05:18: file: wp-content/uploads/sites/3/2015/02/technics-q-c-790-365-6-300x139.jpg
+2015-02-10 18:05:18: file: wp-content/uploads/sites/3/2015/02/technics-q-c-790-365-6.jpg
+2015-02-10 18:05:19: file: section: media/builder-templates/fonts
+2015-02-10 18:05:20: file: wp-content/uploads/sites/3/builder-templates/fonts/fontscorecomttwcenmt-bg.png
+2015-02-10 18:05:20: file: wp-content/uploads/sites/3/builder-templates/fonts/fontscorecomttwcenmt-thumb.png
+2015-02-10 18:05:20: file: wp-content/uploads/sites/3/builder-templates/fonts/fontscorecomttwcenmt.eot
+2015-02-10 18:05:20: file: wp-content/uploads/sites/3/builder-templates/fonts/fontscorecomttwcenmt.png
+2015-02-10 18:05:20: file: wp-content/uploads/sites/3/builder-templates/fonts/fontscorecomttwcenmt.ttf
+2015-02-10 18:05:20: file: wp-content/uploads/sites/3/builder-templates/fonts/fontscorecomttwcenmt.woff
+2015-02-10 18:05:21: file: section: media/builder-templates/images
+2015-02-10 18:05:23: file: wp-content/uploads/sites/3/builder-templates/images/360bg.png
+2015-02-10 18:05:23: file: wp-content/uploads/sites/3/builder-templates/images/BRAND360PAGE.gif
+2015-02-10 18:05:23: file: wp-content/uploads/sites/3/builder-templates/images/BRAND360PAGE.png
+2015-02-10 18:05:23: file: wp-content/uploads/sites/3/builder-templates/images/BRANDPOSITIONING.gif
+2015-02-10 18:05:23: file: wp-content/uploads/sites/3/builder-templates/images/CAMPAIGNEVALUATION.gif
+2015-02-10 18:05:23: file: wp-content/uploads/sites/3/builder-templates/images/COMPETITIVE-REVIEW.gif
+2015-02-10 18:05:23: file: wp-content/uploads/sites/3/builder-templates/images/PR.gif
+2015-02-10 18:05:23: file: wp-content/uploads/sites/3/builder-templates/images/Untitled-3.png
+2015-02-10 18:05:23: file: wp-content/uploads/sites/3/builder-templates/images/ads.png
+2015-02-10 18:05:23: file: wp-content/uploads/sites/3/builder-templates/images/advertising.gif
+2015-02-10 18:05:23: file: wp-content/uploads/sites/3/builder-templates/images/anualcalendar.gif
+2015-02-10 18:05:23: file: wp-content/uploads/sites/3/builder-templates/images/arrow1.png
+2015-02-10 18:05:23: file: wp-content/uploads/sites/3/builder-templates/images/arrow2.png
+2015-02-10 18:05:23: file: wp-content/uploads/sites/3/builder-templates/images/b360bai.png
+2015-02-10 18:05:23: file: wp-content/uploads/sites/3/builder-templates/images/background_02.png
+2015-02-10 18:05:23: file: wp-content/uploads/sites/3/builder-templates/images/border_bg.png
+2015-02-10 18:05:23: file: wp-content/uploads/sites/3/builder-templates/images/branddevelopmnet.gif
+2015-02-10 18:05:23: file: wp-content/uploads/sites/3/builder-templates/images/business-review.gif
+2015-02-10 18:05:23: file: wp-content/uploads/sites/3/builder-templates/images/center-bg.png
+2015-02-10 18:05:23: file: wp-content/uploads/sites/3/builder-templates/images/contact-us-bg.png
+2015-02-10 18:05:23: file: wp-content/uploads/sites/3/builder-templates/images/core-circle.png
+2015-02-10 18:05:23: file: wp-content/uploads/sites/3/builder-templates/images/creative-strategy.gif
+2015-02-10 18:05:23: file: wp-content/uploads/sites/3/builder-templates/images/event.gif
+2015-02-10 18:05:23: file: wp-content/uploads/sites/3/builder-templates/images/event.png
+2015-02-10 18:05:23: file: wp-content/uploads/sites/3/builder-templates/images/lab.png
+2015-02-10 18:05:23: file: wp-content/uploads/sites/3/builder-templates/images/left-bg.png
+2015-02-10 18:05:23: file: wp-content/uploads/sites/3/builder-templates/images/left-side-arrow.png
+2015-02-10 18:05:23: file: wp-content/uploads/sites/3/builder-templates/images/market.png
+2015-02-10 18:05:23: file: wp-content/uploads/sites/3/builder-templates/images/media.png
+2015-02-10 18:05:23: file: wp-content/uploads/sites/3/builder-templates/images/mediabuying.gif
+2015-02-10 18:05:23: file: wp-content/uploads/sites/3/builder-templates/images/ourclients-bg.png
+2015-02-10 18:05:23: file: wp-content/uploads/sites/3/builder-templates/images/outer-circle.png
+2015-02-10 18:05:23: file: wp-content/uploads/sites/3/builder-templates/images/pr.png
+2015-02-10 18:05:23: file: wp-content/uploads/sites/3/builder-templates/images/rainbow-circle.png
+2015-02-10 18:05:23: file: wp-content/uploads/sites/3/builder-templates/images/right-bg.png
+2015-02-10 18:05:23: file: wp-content/uploads/sites/3/builder-templates/images/right-side-arrow.png
+2015-02-10 18:05:23: file: wp-content/uploads/sites/3/builder-templates/images/tactical-marketing.gif
+2015-02-10 18:05:24: backupZipFolder[]
+2015-02-10 18:05:24: rename: backupZipFile[D:/xampp/htdocs/pronegosyo-local-mu/wp-content/uploads/snapshots/_backup/1423591476/snapshot-backup.zip] backupZipFileFinal[D:/xampp/htdocs/pronegosyo-local-mu/wp-content/uploads/snapshots/snapshot-1423591476-150210-180436-431f3cf7.zip]
+2015-02-10 18:05:24: finish: snapshot-1423591476-150210-180436-431f3cf7.zip

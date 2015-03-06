@@ -1,0 +1,88 @@
+.contact_03-title
+{
+    text-align: center;
+    color:#FFF;
+}
+
+.contact_03-title h1
+{
+    text-transform: uppercase;
+    margin-top: 25px;
+}
+
+.contact_03-table
+{
+    width: 100%
+}
+
+.contact_03-table td
+{
+    padding: 5px;
+}
+
+
+.contact_03-table td input[type="text"],
+.contact_03-table td input[type="email"],
+.contact_03-table td textarea
+{
+    background: transparent;
+    border:2px solid #FFF;
+    border-radius: 2px;
+}
+
+.contact_03-table td input[type="text"]::-webkit-input-placeholder,
+.contact_03-table td input[type="email"]::-webkit-input-placeholder,
+.contact_03-table td textarea::-webkit-input-placeholder {
+   color: #FFF;
+}
+
+.contact_03-table td input[type="text"]:-moz-placeholder,
+.contact_03-table td input[type="email"]:-moz-placeholder,
+.contact_03-table td textarea:-moz-placeholder { /* Firefox 18- */
+   color: #FFF;  
+}
+
+.contact_03-table td input[type="text"]::-moz-placeholder,
+.contact_03-table td input[type="email"]::-moz-placeholder,
+.contact_03-table td textarea::-moz-placeholder {  /* Firefox 19+ */
+   color: #FFF;  
+}
+ 
+.contact_03-table td input[type="text"]:-ms-input-placeholder
+.contact_03-table td input[type="email"]:-ms-input-placeholder
+.contact_03-table td textarea:-ms-input-placeholder {  
+   color: #FFF;  
+}
+
+.contact_03-table td input[type="submit"]
+{
+    border-radius: 1px;
+    border: 1px solid #FFF;
+    background-color: transparent;
+    display: block;
+    margin: 5px auto;
+    padding: 4px 20px;
+    color: #FFF;
+}
+
+.contact_03-details
+{
+    color: #FFF;
+    text-align: center;
+}
+
+@media (min-width: 980px) {
+   .contact_03-table td textarea
+    {
+        height: 250px;
+    } 
+}
+
+@media (max-width: 420px) {
+    .contact_03-details
+    {
+        margin-top: 25px;
+        height: auto;
+        overflow: visible;
+    }
+}
